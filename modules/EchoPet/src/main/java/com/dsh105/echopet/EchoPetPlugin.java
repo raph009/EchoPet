@@ -163,7 +163,7 @@ public class EchoPetPlugin extends DSHPlugin implements IEchoPetPlugin {
         // Register listeners
         manager.registerEvents(new MenuListener(), this);
         manager.registerEvents(new PetEntityListener(), this);
-        manager.registerEvents(new PetOwnerListener(), this);
+        //manager.registerEvents(new PetOwnerListener(), this);
         manager.registerEvents(new ChunkListener(), this);
 
         this.vanishProvider = new VanishProvider(this);
